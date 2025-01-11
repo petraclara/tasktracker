@@ -1,0 +1,13 @@
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+<py-script>
+from tasks import sort_tasks
+
+tasks = [
+    {"id": 1, "title": "Write a report", "priority": "High", "status": "Pending"},
+    {"id": 2, "title": "Read a book", "priority": "Medium", "status": "Completed"},
+    {"id": 3, "title": "Update resume", "priority": "Low", "status": "Pending"},
+]
+
+sorted_tasks = sort_tasks(tasks)
+print(sorted_tasks)
+</py-script>

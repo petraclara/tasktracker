@@ -1,0 +1,35 @@
+
+
+.app {
+  text-align: center;
+}
+
+.task-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.task-card.pending {
+  background-color: #ffcccb;
+}
+
+.task-card.completed {
+  background-color: #d4edda;
+}
+
+.task-form {
+  margin: 1rem 0;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+} 
+
